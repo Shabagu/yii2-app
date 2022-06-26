@@ -14,6 +14,6 @@ class MyController extends Controller
         if (!$id) $id ='id не задан!';
 
 //        return $this->render('index', ['about' => $type, 'bands' => $bands]);
-        return $this->render('index', compact('genre', 'bands', 'id'));
+        return $this->render('index', compact('type', 'genre', 'bands', 'id'));
     }
 }
