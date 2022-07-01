@@ -3,13 +3,13 @@
 <?php
 
 addBr(1);
-echo '<p><b>print_r</b></p>';
+echo '<p><b>print_r()</b></p>';
 print_r($bands);
 
 addBr(2);
-echo '<p><b>var_dump</b></p>';
+echo '<p><b>var_dump()</b></p>';
 var_dump($bands);
 
 addBr(2);
-echo '<p><b>debugPrint</b></p>';
+echo '<p><b>debugPrint()</b></p>';
 debugPrint($bands);

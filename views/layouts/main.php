@@ -40,7 +40,7 @@ AppAsset::register($this);
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
-            ['label' => '= Lessons =', 'url' => ['/site/lessons']],
+            ['label' => '|-|-|- Lessons -|-|-|', 'url' => ['/site/lessons']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
@@ -53,10 +53,6 @@ AppAsset::register($this);
                 . Html::endForm()
                 . '</li>'
             ),
-//            ['label' => '1) Hello World!', 'url' => ['/site/hello-world']],
-//            ['label' => '2) Hello-2', 'url' => ['/site/hello2']],
-//            ['label' => '3) My tab', 'url' => ['/my/index']],
-//            ['label' => '4) AdminZone', 'url' => ['/admin/user']],
         ],
     ]);
     NavBar::end();
