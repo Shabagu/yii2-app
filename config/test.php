@@ -20,6 +20,8 @@ return [
         ],
         'assetManager' => [
             'basePath' => __DIR__ . '/../web/assets',
+//            'linkAssets' => true,
+//            'appendTimestamp' => true,
         ],
         'urlManager' => [
             'showScriptName' => true,

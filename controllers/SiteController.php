@@ -140,4 +140,14 @@ class SiteController extends AppController
         return 'Hello 2!';
     }
 
+    public function actionIndex2() {
+        $this->layout = 'simplified';
+        return $this->render('index2');
+    }
+
+    public function actionLessons2() {
+        $this->layout = 'simplified';
+        return $this->render('lessons');
+    }
+
 }
