@@ -143,7 +143,7 @@ class SiteController extends AppController
     public function actionIndex2() {
         $this->layout = 'simplified';
         $this->view->registerMetaTag(['name'=>'keywords', 'content'=>'yii']);
-        $this->view->registerMetaTag(['name'=>'description', 'content'=>'моё приложение на фреймворке Yii2']);
+        $this->view->registerMetaTag(['name'=>'description', 'content'=>'Моё приложение на фреймворке Yii2']);
         $this->view->title = 'Моё Yii приложение';
         return $this->render('index2');
     }

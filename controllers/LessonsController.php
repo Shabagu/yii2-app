@@ -18,6 +18,6 @@ class LessonsController extends Controller {
     }
 
     public function actionL7() {
-        return $this->render('lesson7.php');
+        return $this->render('lesson7');
     }
 }

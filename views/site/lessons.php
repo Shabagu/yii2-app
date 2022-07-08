@@ -29,7 +29,7 @@
     <li>
         Виды и шаблоны
         <ul>
-            <li><a href="?r=lessons/l6-another-layout">Views (another layout)</a></li>
+            <li><a href="?r=lessons/l6-another-layout">Views (new layout)</a></li>
             <li><a href="?r=lessons/l6-default-layout">Views (default layout)</a></li>
         </ul>
     </li>

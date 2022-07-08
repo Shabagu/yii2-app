@@ -46,7 +46,7 @@ AppAsset::register($this);
             ['label' => 'post/index', 'url' => '?r=post'],
             ['label' => 'post/show2', 'url' => '?r=post/show2'],
             ['label' => 'post/test2', 'url' => '?r=post/test2'],
-            ['label' => '[сновной шаблон]', 'url' => '/web'],
+            ['label' => '[основной шаблон]', 'url' => '/web'],
         ]
     ]);
     NavBar::end();
