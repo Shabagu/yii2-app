@@ -1,0 +1,13 @@
+body {
+    /*background: #c8233320;*/
+}
+
+.added {
+    font-style: normal;
+    font-weight: 500;
+    background: #1e7e3420;
+}
+
+.added:hover {
+    background: #1e7e3450;
+}

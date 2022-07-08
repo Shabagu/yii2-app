@@ -1,3 +1,7 @@
+<?php
+//    $this->title = 'Тестовая страница';
+?>
+
 <h1>Test Action (print comparison)</h1>
 
 <?php

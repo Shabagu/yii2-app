@@ -1,3 +1,11 @@
+<?php
+//    $this->title = 'Просмотр записи';
+?>
+
+<?php $this->beginBlock('block1'); ?>
+    <p class='added'>Добавленный блок кода block1 вида post/show2</p>
+<?php $this->endBlock(); ?>
+
 <h3>Просмотр поста</h3>
 
 <button class="btn btn-success" id="myBtn">Нажми на меня!</button>
@@ -10,7 +18,7 @@
 <?php //$this->registerJsFile('@web/js/script.js') ?>
 <?php $this->registerJsFile('@web/js/script.js', ['depends' => 'yii\web\YiiAsset']) ?>
 <?php $this->registerJs(
-    "$('.container').append('<p>Добавлено с помощью метода registerJs</p>')",
+    "$('main .container').append(`<p class='added'>Добавлено с помощью метода registerJs</p>`)",
     \yii\web\View::POS_LOAD,
 ) ?>
 <?php

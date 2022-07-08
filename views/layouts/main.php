@@ -41,7 +41,6 @@ AppAsset::register($this);
 //            ['label' => 'Home', 'url' => ['/site/index']],
 //            ['label' => 'About', 'url' => ['/site/about']],
 //            ['label' => 'Contact', 'url' => ['/site/contact']],
-            ['label' => 'Новый шаблон', 'url' => '?r=site/index2'],
             ['label' => 'Lessons', 'url' => '?r=site/lessons'],
             ['label' => 'Home', 'url' => '?r=site/index'],
             ['label' => 'About', 'url' => '?r=site/about'],
@@ -58,6 +57,7 @@ AppAsset::register($this);
                 . Html::endForm()
                 . '</li>'
             ),
+            ['label' => '[new layout]', 'url' => '?r=site/index2'],
         ],
     ]);
     NavBar::end();

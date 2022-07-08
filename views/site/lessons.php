@@ -1,3 +1,7 @@
+<?php
+//    $this->title = 'Уроки';
+?>
+
 <h1>Lessons</h1>
 <ol>
     <li>Введение</li>
