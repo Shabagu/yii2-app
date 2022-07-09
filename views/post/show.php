@@ -25,7 +25,7 @@
 $js = <<<JS
     $('#myBtn').on('click', function() {
         $.ajax({
-            url: 'index.php?r=post/index',
+            url: 'index.php?r=post/show2',
             type: 'POST',
             data: {test: '123'},
             success: function (res) {

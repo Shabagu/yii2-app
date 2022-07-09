@@ -37,7 +37,7 @@ class PostController extends AppController {
     public function beforeAction($action) {
 //        debugPrint($action);
 
-        if ($action->id == 'index') {
+        if ($action->id == 'show2') {
             $this->enableCsrfValidation = false;
         }
         return parent::beforeAction($action);
@@ -46,18 +46,19 @@ class PostController extends AppController {
 
     public function actionIndex() {
 
-        if (Yii::$app->request->isAjax) {
-//            debugPrint($_POST);
-            debugPrint(Yii::$app->request->post());
-            return 'Ajax request worked!';
-        }
-
         $this->view->title = 'О записях';
         $this->layout = 'new';
         return $this->render('index');
     }
 
     public function actionShow2() {
+
+        if (Yii::$app->request->isAjax) {
+//            debugPrint($_POST);
+            debugPrint(Yii::$app->request->post());
+            return 'Ajax request worked!';
+        }
+
         $this->view->title = 'Просмотр записи';
         $this->layout = 'new';
 //        $this->view->registerMetaTag(['name'=>'keywords', 'content'=>'yii, yii2, learning']);
