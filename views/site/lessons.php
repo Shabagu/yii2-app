@@ -45,4 +45,13 @@
             <li><a href="?r=post/show2">post/show2</a></li>
         </ul>
     </li>
+    <li>
+        Метаданные страницы
+    </li>
+    <li>
+        Создание форм
+        <ul>
+            <li><a href="?r=appeal/write">Написать обращение</a></li>
+        </ul>
+    </li>
 </ol>

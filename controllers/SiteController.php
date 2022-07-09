@@ -141,7 +141,7 @@ class SiteController extends AppController
     }
 
     public function actionIndex2() {
-        $this->layout = 'simplified';
+        $this->layout = 'new';
         $this->view->registerMetaTag(['name'=>'keywords', 'content'=>'yii']);
         $this->view->registerMetaTag(['name'=>'description', 'content'=>'Моё приложение на фреймворке Yii2']);
         $this->view->title = 'Моё Yii приложение';
@@ -149,7 +149,7 @@ class SiteController extends AppController
     }
 
     public function actionLessons2() {
-        $this->layout = 'simplified';
+        $this->layout = 'new';
         $this->view->title = 'Уроки';
         return $this->render('lessons');
     }

@@ -7,5 +7,5 @@ function addBr($amount) {
 }
 
 function debugPrint($arr) {
-    echo '<pre>' . print_r($arr, true) . '</pre>';
+    echo '<pre class="debug-print">' . print_r($arr, true) . '</pre>';
 }

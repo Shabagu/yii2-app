@@ -29,7 +29,7 @@ class PostController extends AppController {
 
 //        var_dump(Yii::$app);
         $this->view->title = 'Тестовая страница';
-        $this->layout = 'simplified';
+        $this->layout = 'new';
         return $this->render('test', ['bands' => $bands]);
     }
 
@@ -53,13 +53,13 @@ class PostController extends AppController {
         }
 
         $this->view->title = 'О записях';
-        $this->layout = 'simplified';
+        $this->layout = 'new';
         return $this->render('index');
     }
 
     public function actionShow2() {
         $this->view->title = 'Просмотр записи';
-        $this->layout = 'simplified';
+        $this->layout = 'new';
 //        $this->view->registerMetaTag(['name'=>'keywords', 'content'=>'yii, yii2, learning']);
 //        $this->view->registerMetaTag(['name'=>'description', 'content'=>'моё приложение на фреймворке Yii2 (свой шаблон)']);
         return $this->render('show');

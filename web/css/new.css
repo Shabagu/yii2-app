@@ -11,3 +11,11 @@ body {
 .added:hover {
     background: #1e7e3450;
 }
+
+.debug-print {
+    background: #eee;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #aaa;
+    border-radius: 12px;
+}

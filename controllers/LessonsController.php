@@ -6,7 +6,7 @@ use yii\web\Controller;
 
 class LessonsController extends Controller {
 
-    public $layout = 'simplified';
+    public $layout = 'new';
 
     public function actionL6AnotherLayout() {
         return $this->render('lesson6');

@@ -43,6 +43,7 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav'],
         'items' => [
             ['label' => 'Уроки', 'url' => '?r=site/lessons2'],
+            ['label' => 'Написать обращение', 'url' => '?r=appeal/write'],
             ['label' => 'post/index', 'url' => '?r=post'],
             ['label' => 'post/show2', 'url' => '?r=post/show2'],
             ['label' => 'post/test2', 'url' => '?r=post/test2'],
@@ -54,20 +55,6 @@ AppAsset::register($this);
     <div class="warp">
         <main>
             <div class="container">
-                <!--                    <nav class="navbar navbar-expand-lg bg-light">-->
-                <!--                        <div class="container-fluid">-->
-                <!--                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">-->
-                <!--                                <div class="navbar-nav">-->
-                <!--                                    --><?//= Html::a('Основной шаблон', '/web', ['class'=>'nav-link']) ?>
-                <!--                                    --><?//= Html::a('Уроки', '?r=site/lessons2', ['class'=>'nav-link']) ?>
-                <!--                                    --><?//= Html::a('post/', '?r=post', ['class'=>'nav-link']) ?>
-                <!--                                    --><?//= Html::a('post/show2', '?r=post/show2', ['class'=>'nav-link']) ?>
-                <!--                                    --><?//= Html::a('post/test2 (1)', '?r=post/test2', ['class'=>'nav-link']) ?>
-                <!--                                    --><?//= Html::a('post/test2 (2)', ['post/test2'], ['class'=>'nav-link']) ?>
-                <!--                                </div>-->
-                <!--                            </div>-->
-                <!--                        </div>-->
-                <!--                    </nav>-->
 
                 <?= $content ?>
 
