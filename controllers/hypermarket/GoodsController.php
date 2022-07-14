@@ -4,6 +4,7 @@ namespace app\controllers\hypermarket;
 
 use app\controllers\AppController;
 use app\models\Goods;
+use app\models\GoodsCategory;
 
 //use Yii;
 
@@ -59,6 +60,20 @@ class GoodsController extends AppController {
 //        // Защита от SQL-инъекций
 //        $query = "SELECT * FROM goods WHERE title LIKE :search";
 //        $goods = Goods::findBySql($query, [':search'=>'%ок%'])->asArray()->all();
+
+//        // Ленивая (отложенная) загрузка
+//        $goods = GoodsCategory::findOne(2);
+
+//        // Жадная загрузка
+//        $goods = GoodsCategory::find()->with('goods')->where('id=1')->all();
+
+
+//        // Ленивая (отложенная) загрузка [всего]
+//        $goods = GoodsCategory::find()->all();
+
+//        // Жадная загрузка [всего]
+//        $goods = GoodsCategory::find()->with('goods')->all();
+
 
         if (!$goods) $goods = 'Выборка не была произведена';
 

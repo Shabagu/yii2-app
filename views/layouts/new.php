@@ -43,11 +43,11 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav'],
         'items' => [
             ['label' => 'Уроки', 'url' => '?r=site/lessons2'],
+            ['label' => 'AJAX', 'url' => '?r=post/show2'],
             ['label' => 'Написать обращение', 'url' => '?r=appeal/write'],
             ['label' => 'Товары', 'url' => '?r=hypermarket/goods/explore'],
-            ['label' => 'AJAX', 'url' => '?r=post/show2'],
-            ['label' => 'post/index', 'url' => '?r=post'],
-            ['label' => 'post/test2', 'url' => '?r=post/test2'],
+//            ['label' => 'post/index', 'url' => '?r=post'],
+//            ['label' => 'post/test2', 'url' => '?r=post/test2'],
             ['label' => '[основной шаблон]', 'url' => '/web'],
         ]
     ]);

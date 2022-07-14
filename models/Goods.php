@@ -12,4 +12,13 @@ class Goods extends ActiveRecord {
 //        return 'staff';
 //    }
 
+//    public function getCategories() {
+//        return $this->hasOne(GoodsCategory::class, ['id'=>'category_id']);
+//    }
+//    // Данная связь в данном конкретном случае не нужна, так как работа происходит в обратном порядке:
+//    // С помощью метода getGoods() модели GoodsCategory берутся категории товаров
+
+
+
+
 }
